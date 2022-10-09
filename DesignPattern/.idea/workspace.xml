@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dde2ba61-e9c7-4cb0-afa6-500148e911c7" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/어댑터패턴/어댑터패턴.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/퍼사드패턴/퍼사드패턴.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/퍼사드패턴/퍼사드패턴.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/어댑터패턴/어댑터패턴.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
