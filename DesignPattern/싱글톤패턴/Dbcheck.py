@@ -22,7 +22,7 @@ hc1 = Dbcheck()
 hc2 = Dbcheck()
 
 print(hc1) #한 번만 생성된 객체
-print(hc2) #한 번만 생성된 객체
+print(hc2) #한 번만 생성된 객체, hc1과 같은 객체를 참조함
 
 hc1.addServer() # addServer메소드를 통해 _servers에 Server1~4까지 추가
 print(hc1._servers)

@@ -31,7 +31,8 @@ class MouseFactory(metaclass=ABCMeta): #MouseFactory 추상클래스
     def createMouse(self):
         pass
 
-#concreateFactory #MouseFactory 추상클래스를 상속받는 LogiMouseFactory,AppleMouseFactory 두 클래스
+#concreateFactory
+#MouseFactory 추상클래스를 상속받는 LogiMouseFactory,AppleMouseFactory 두 클래스
 class LogiMouseFactory(MouseFactory):
     def createMouse(self):
         return G102() # G102 반환

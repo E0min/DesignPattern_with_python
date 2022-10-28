@@ -16,9 +16,9 @@ class SoccerPlayer(Soccer):
     def defend(self):
         print("축구선수 수비능력")
 
-class BaseballAdapter(Soccer):
-    def __init__(self, Baseball):
-        self.Baseball = Baseball
+class BaseballAdapter(Soccer):       ########
+    def __init__(self, Baseball):    ########
+        self.Baseball = Baseball     ########
 
     def attack(self):
         self.Baseball.hit()

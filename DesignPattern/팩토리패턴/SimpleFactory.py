@@ -14,9 +14,9 @@ class Cat(Animal):
     def do_say(self):
         print("야옹 야옹!!")
 
-class ForestFactory(object):
+class ForestFactory(object): #입력된 객체명을 생성하는 팩토리
     def make_sound(self, object_type):
-        return eval(object_type)().do_say() # eval(object_type)()두번째 빈 괄호는 입력받는 objecy_type 클래스 생성자의 매개변수가 위치할 자리이다.
+        return eval(object_type)().do_say() # eval(object_type)()두번째 빈 괄호는 입력받는 object_type 클래스 생성자의 매개변수가 위치할 자리이다.
 
 ff = ForestFactory()
 animal = input("Dog or Cat") # animal에는 Dog또는 Cat문자열이 저장된다.
